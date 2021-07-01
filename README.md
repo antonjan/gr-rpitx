@@ -60,7 +60,7 @@ Peri Base = 3f000000 SDRAM c0000000
 Welcome to gr-sig_gen_0-12mhz_8.jpg
 Press Enter to quit: 
 
-<img src="doc/gr-rpitx_1.png">
+<img src="docs/gr-rpitx_1.png">
 
 If you get this error you did not run it as suso
 
