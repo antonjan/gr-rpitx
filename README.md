@@ -57,10 +57,10 @@ Peri Base = 3f000000 SDRAM c0000000
 Peri Base = 3f000000 SDRAM c0000000
 Peri Base = 3f000000 SDRAM c0000000
 Peri Base = 3f000000 SDRAM c0000000
-Welcome to gr-rpitx
+Welcome to gr-sig_gen_0-12mhz_8.jpg
 Press Enter to quit: 
 
-<img src="examples/DSC_0587ann_small.jpg">
+<img src="doc/gr-rpitx_1.png">
 
 If you get this error you did not run it as suso
 
