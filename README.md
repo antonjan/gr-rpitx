@@ -3,6 +3,42 @@
 Using the Raspberry Pi PLL as radiofrequency source controlled from GNU Radio.
 
 # Compiling for the Raspberry Pi target
+Get the librpitx and compile
+
+      cd
+      git clone https://github.com/F5OEO/librpitx.git
+      cd librpitx
+      mkdir build
+      cd build
+      cmake ../
+      make
+      sudo make install
+      ldconfig
+      
+Get gr-rpitx and compile
+
+      cd
+      git clone https://github.com/antonjan/gr-rpitx.git
+      cd gr-rpitx
+      mkdir build
+      cd build
+      cmake ../
+      make
+      sudo make install
+      ldconfig
+
+We need to setup the enviroment paths for gnuradio to bea ble to see your gr-rpitx
+Best is to run the script sudo /home/pi/gr-rpitx/start_gnuradio-companion.sh witch includes the pathes below.
+Please note you need run this as sudo if not you will get the following error
+
+      
+      export PATH=/usr/local/bin:$PATH
+      export PYTHONPATH=/usr/local/lib/python3/dist-packages:$PYTHONPATH
+      export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_CONFIG
+      export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+      /usr/local/bin/gnuradio-companion
+
+
 
 Easiest: gr-rpitx is available as a Buildroot BR2_EXTERNAL package at 
 https://github.com/oscimp/oscimp_br2_external and can be selected from 
