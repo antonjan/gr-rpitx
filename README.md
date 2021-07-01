@@ -40,25 +40,25 @@ Please note you need run this as sudo if not you will get the following error
 
 If you run the sudo /home/pi/gr-rpitx/start_gnuradio-companion.sh
 
-Generating: '/home/pi/rptx_traqnsmitter.py'
+            Generating: '/home/pi/rptx_traqnsmitter.py'
 
-Executing: /usr/bin/python3 -u /home/pi/rptx_traqnsmitter.py
+            Executing: /usr/bin/python3 -u /home/pi/rptx_traqnsmitter.py
 
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Peri Base = 3f000000 SDRAM c0000000
-Welcome to gr-sig_gen_0-12mhz_8.jpg
-Press Enter to quit: 
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Peri Base = 3f000000 SDRAM c0000000
+            Welcome to gr-sig_gen_0-12mhz_8.jpg
+            Press Enter to quit: 
 
 <img src="docs/gr-rpitx_1.png">
 
