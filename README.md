@@ -28,15 +28,18 @@ Get gr-rpitx and compile
       ldconfig
 
 We need to setup the enviroment paths for gnuradio to bea ble to see your gr-rpitx
+I had to reboot for all libraeries to work properly so do it here.
 Best is to run the script sudo /home/pi/gr-rpitx/start_gnuradio-companion.sh witch includes the pathes below.
 Please note you need run this as sudo if not you will get the following error
-
+This the paths I had to set for guradio to make it work
       
       export PATH=/usr/local/bin:$PATH
       export PYTHONPATH=/usr/local/lib/python3/dist-packages:$PYTHONPATH
       export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_CONFIG
       export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
       /usr/local/bin/gnuradio-companion
+
+Then oprn file gnuradio_python_block_to_librpitx.grc in te exsample directory and run it to see if all works
 
 If you run the sudo /home/pi/gr-rpitx/start_gnuradio-companion.sh
 
